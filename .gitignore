@@ -99,3 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+results-sim*.pdf
+ppb_sumprobs.pdf
+sim_results.dat
