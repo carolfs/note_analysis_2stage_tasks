@@ -34,5 +34,5 @@ plt.ylabel(r'Difference in stay probability $[(P_{rc} + P_{uc}) - (P_{rr} + P_{u
 plt.legend()
 plt.axhline(y=0, xmax=2, ls='dotted', c='k')
 plt.axvline(x=1, ls='dotted', c='k')
-plt.savefig('ppb_sumprobs.pdf')
+plt.savefig('ppb_sumprobs.eps', bbox_inches='tight')
 plt.close()

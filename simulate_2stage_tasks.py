@@ -370,7 +370,7 @@ def run_simulations():
 
             plt.tight_layout()
             plt.savefig(
-                'results-sim{}-{}.pdf'.format(sim_num, ana), bbox_inches='tight')
+                'results-sim{}-{}.eps'.format(sim_num, ana), bbox_inches='tight')
             plt.close()
         del sim_results
 
